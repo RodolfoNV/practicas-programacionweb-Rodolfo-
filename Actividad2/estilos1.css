@@ -1,0 +1,19 @@
+/* Estilos para los títulos <h1> */
+h1 {
+    font-family: 'Times New Roman', Times, serif; /* Define la fuente de texto */
+    font-size: 35px; /* Tamaño del texto en píxeles */
+    color: rgb(218, 11, 163); /* Color del texto en formato RGB (rosa/morado) */
+}
+/* Estilos para los párrafos con la clase "parrafo" */
+.parrafo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente del texto */
+    font-size: 20px; /* Tamaño del texto */
+    color: green; /* Color del texto en verde */
+}
+/* Estilos para las imágenes con la clase "Imagen" */
+.Imagen {
+    width: 250px; /* Ancho de la imagen en píxeles */
+    height: 250px; /* Altura de la imagen en píxeles */
+    border-radius: 50%; /* Hace que la imagen tenga bordes redondeados 
+    (círculo si es cuadrada) */
+}
