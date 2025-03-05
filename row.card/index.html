@@ -5,91 +5,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Importamos Bootstrap para estilos y diseño responsivo -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Row</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center">USO DEL Row </h1>
+    <div class="container"> <!-- Contenedor principal para alinear contenido en el centro -->
+        <div class="row"> <!-- Fila que contendrá columnas dentro -->
+            <h1 class="text-center">USO DEL Row</h1> <!-- Título centrado -->
 
             <div class="col-md-6">
-                <div class="card">
+                <!-- Primera columna que ocupa la mitad de la pantalla en pantallas medianas o grandes -->
+                <div class="card"> <!-- Tarjeta que contiene información -->
                     <div style="background-color: rgb(9, 228, 240); color: #ffff;" class="card-header">
-                        <h6 class="text-center">PRIMER CARD</h6>
+                        <h6 class="text-center">PRIMER CARD</h6> <!-- Título de la tarjeta, centrado -->
                     </div>
                     <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a enim voluptas
-                            quibusdam, est distinctio autem beatae eius nemo adipisci reprehenderit iste, pariatur unde
-                            omnis voluptates. Animi iusto ab repudiandae?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum nam veniam veritatis quidem
+                            maxime earum officiis delectus praesentium dicta facere pariatur alias, mollitia vel aperiam
+                            excepturi accusamus optio a eum!</p> <!-- Texto de ejemplo dentro de la tarjeta -->
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6"> <!-- Segunda columna igual a la anterior -->
                 <div class="card">
                     <div style="background-color: rgb(9, 255, 0); color: #ffffff;" class="card-header">
-                        <h6 class="text-center">SEGUNDO CARD</h6>
+                        <h6 class="text-center">SEGUNDO CARD</h6> <!-- Título de la segunda tarjeta -->
                     </div>
                     <div class="card-body">
-                        <p style="font-style: italic;">
-                            MONOPLAZA</p>
+                        <p style="font-style: italic;">MONOPLAZA</p> <!-- Texto en cursiva -->
                         <img src="https://cdn-6.motorsport.com/images/amp/6zQ5bNwY/s700/max-verstappen-red-bull-racing.jpg"
-                        alt="Imagen Segundo Card" class="img-fluid">
+                            alt="Imagen Segundo Card" class="img-fluid"> <!-- Imagen responsiva dentro de la tarjeta -->
                     </div>
                 </div>
             </div>
-            
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body">
-                            <button class="btn btn-primary w-100 h-100">Botón 1</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-            </div> 
 
             <div class="row mt-4">
-                <div class="col-md-2"> 
+                <div class="col-md-4">
                     <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
+                        <div style="background-color: rgb(69, 1, 121); color: #ffff;" class="card-header">
+                            <h6 class="text-center">BOTONES CON CSS</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <button class="basic-button-b">Botón Básico 1</button>
+                            <button class="extreme-round-button">Redondeado Extremo</button>
+
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-md-2">
+
+
+
+
+
+
+                <div class="col-md-4">
                     <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body">
-                            <button class="btn btn-primary w-100 h-100">Botón 2</button>
+                        <div style="background-color: rgb(10, 0, 143); color: #ffff;" class="card-header">
+                            <h6 class="text-center">BOTONES CON BOOTSTRAP</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <button type="button" class="btn btn-outline-primary">Primary</button>=
+                            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                            <button type="button" class="btn btn-outline-success">Success</button>
+                            <button type="button" class="btn btn-outline-danger">Danger</button>
                         </div>
                     </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div style="background-color: rgb(176, 25, 25); color: #ffff;" class="card-header">
+                            <h6 class="text-center">IMAGENES</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvxKSgncIDQiEKKDEUNEQQcQUyCDRt_bUzYw&s"
+                                alt="Imagen 1" width="75%" height="100px">
+                            <br>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLzqQihAMzufyquTGbhK-rsUUuuijtijeDA&s"
+                                alt="Imagen 2" width="75%" height="100px">
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- Cierra correctamente la primera fila -->
+
+
+
+
+
+
+
+
+
+            <div class="row mt-4">
+                <div class="col-md-2"> <!-- Corrección de 'cold-md-2' a 'col-md-2' -->
+                    <div class="card">
+                        <div style="background-color: rgb(0, 101, 12); color: #ffff;" class="card-header">
+                            <h6 class="text-center">BOTON CON ICONO</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <button class="icon-button"><i class="fas fa-thumbs-up"></i> Me Gusta</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="col-md-2">
+                    <div class="card">
+                        <div style="background-color: rgb(143, 0, 110); color: #ffff;" class="card-header">
+                            <h6 class="text-center">BOTON CON ICONO</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <button class="fancy-button"><i class="fas fa-star"></i> Botón Elegante</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
                 </div>
                 <div class="col-md-6">
                     <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
+                        <div style="background-color: rgb(0, 136, 143); color: #ffff;" class="card-header">
+                            <h6 class="text-center">TERCER CARD</h6>
+                        </div>
+                        <div class="card-body text-center">
+                            <p style="font-style:italic;">Ferrari ha demostrado un desempeño excepcional en las 24 Horas
+                                de Le Mans en los últimos años. Después de un regreso triunfal en 2023, donde el Ferrari
+                                499P número 51, pilotado por Alessandro Pier Guidi, James Calado y Antonio Giovinazzi,
+                                logró la victoria en la edición centenaria de la carrera, la marca italiana continuó su
+                                racha ganadora en 2024. En esta ocasión, el Ferrari 499P número 50, conducido por
+                                Antonio Fuoco, Miguel Molina y Nicklas Nielsen, se alzó con la victoria, marcando la
+                                undécima victoria general de Ferrari en Le Mans y la segunda consecutiva desde su
+                                retorno a la categoría principal.</p>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiapJokZ1y8EMGFGX5Ic5kDT9tUQCZYekBVw&s"
+                                alt="Imagen tercer Card" width="75%" height="200px">
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
