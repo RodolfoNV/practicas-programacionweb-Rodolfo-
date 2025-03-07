@@ -2,68 +2,93 @@
 <html lang="en">
 
 <head>
+    <!-- Se define el conjunto de caracteres utilizado para la página (UTF-8) y la metaetiqueta para la vista en dispositivos móviles -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Se incluye el enlace a Bootstrap, que es una librería que facilita el diseño y la creación de páginas web responsivas -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Se establece el título de la página que aparecerá en la pestaña del navegador -->
     <title>Document</title>
 </head>
 
 <body>
 
+    <!-- Contenedor principal donde se agrupará el contenido de la página -->
     <div class="conteiner">
         <div class="row">
+        
+            <!-- Sección para la primera tarjeta, que ocupará 1/3 del ancho de la pantalla en dispositivos medianos y más grandes -->
             <div class="col-md-4">
                 <div class="card mt-4">
+                    <!-- Cuerpo de la tarjeta -->
                     <div class="card-body text-center">
+                        <!-- Imagen circular con un tamaño fijo de 170px de ancho -->
                         <img style="border-radius: 50%; width: 170px;"
                             src="https://e7.pngegg.com/pngimages/1008/377/png-clipart-computer-icons-avatar-user-profile-avatar-heroes-black-hair.png"
                             alt="">
+                        <!-- Título de la tarjeta -->
                         <h5 class="text-center">titulo 1</h5>
+                        <!-- Descripción breve de la tarjeta -->
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure dicta numquam obcaecati, ut
                             esse ea eum blanditiis, sequi magnam tempora autem? Quae rerum nulla, cupiditate animi
                             temporibus eum blanditiis maiores?</p>
+                        <!-- Botón con estilo de Bootstrap que dice "más información" -->
                         <button class="btn btn-warning">mas informacion </button>
-
                     </div>
                 </div>
             </div>
+
+            <!-- Sección para la segunda tarjeta, también con 1/3 de ancho en dispositivos medianos y más grandes -->
             <div class="col-md-4">
                 <div class="card mt-4" style="min-height: 550px;">
-
                     <div class="card-body text-center">
+                        <!-- Imagen circular con un tamaño fijo de 150px de ancho -->
                         <img style="border-radius: 50%; width: 150px;"
                             src="https://w7.pngwing.com/pngs/263/555/png-transparent-account-avatar-profile-user-avatars-icon.png"
                             alt="">
+                        <!-- Título de la tarjeta -->
                         <h5 class="text-center">titulo 2</h5>
+                        <!-- Descripción breve de la tarjeta -->
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure dicta numquam obcaecati, ut
                             esse ea eum blanditiis, sequi magnam tempora autem? Quae rerum nulla, cupiditate animi
                             temporibus eum blanditiis maiores?</p>
+                        <!-- Botón con estilo de Bootstrap que dice "más información" -->
                         <button class="btn btn-warning">mas informacion </button>
                     </div>
                 </div>
             </div>
 
+            <!-- Sección para la tercera tarjeta -->
             <div class="col-md-4">
                 <div class="card mt-4">
                     <div class="card-body text-center">
+                        <!-- Imagen circular con un tamaño fijo de 150px de ancho -->
                         <img style="border-radius: 50%; width: 150px;"
                             src="https://static.vecteezy.com/system/resources/previews/006/735/770/non_2x/beautiful-woman-avatar-profile-icon-vector.jpg"
                             alt="">
+                        <!-- Título de la tarjeta -->
                         <h5 class="text-center">titulo 3</h5>
+                        <!-- Descripción breve de la tarjeta -->
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure dicta numquam obcaecati, ut
                             esse ea eum blanditiis, sequi magnam tempora autem? Quae rerum nulla, cupiditate animi
                             temporibus eum blanditiis maiores?</p>
+                        <!-- Botón con estilo de Bootstrap que dice "más información" -->
                         <button class="btn btn-warning">mas informacion </button>
-
                     </div>
                 </div>
+            </div>
 
+        </div> <!-- Cierre de la fila (row) -->
 
+    </div> <!-- Cierre del contenedor principal -->
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                    crossorigin="anonymous"></script>
+    <!-- Se incluye el script de Bootstrap para agregar funcionalidad de JavaScript, como interacciones en los botones -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
